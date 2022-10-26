@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Playfair+Display&display=swap');
+
+*   {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+    background-color: #CBC0E0
+}
+
+/* headings and logos*/
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    text-decoration: none;
+    clear: both;
+    display: inline;
+    margin-left: 5px;
+}
+
+.logo {
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 100%;
+    border: none;
+    text-decoration: none;
+    color: #3a3a3a;
+    clear: both;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#menu {
+    list-style-type: none;
+    font-size: 150%;
+    clear:left;
+    
+}
+
+#menu li {
+    display: inline;
+    text-decoration: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #3a3a3a;
+    letter-spacing: 4px;
+    margin-left: 77px;
+    font-size: 150%;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+
+#menu a:hover {
+    color: ;
+}
+
+table {
+    width: auto;
+    float: right;
+    text-align: left;
+    margin-right: 40px;
+    margin-top: 20px;
+    font-family: 'lato', sans-serif;
+    line-height: 170%;
+}
+
+.table-opening-times {
+    text-align: center;
+    font-weight: 700;
+    font-family: 'lato', sans-serif;
+    text-decoration: underline;
+    
+    
+}
