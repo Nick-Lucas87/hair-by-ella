@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <a class="logo" href="index.html">
+        <a class="logo-header" href="index.html">
             <img src="assets/images/ella-logo.jpg" alt="Hair by Ella Logo">
             <h1>Hair by Ella</h1>
         </a>
@@ -69,4 +69,67 @@
         </nav>
     </header>
     
+    <section>
+        <div>
+            <form>
+                <form action="https://formdump.codeinstitute.net" method="POST">
+
+                    <fieldset>
+                        <legend id="your-details">Your details</legend>
+                
+                        <div>
+                            <label for="fname-field">First Name: </label>
+                            <input id="fname-field" type="text" name="first_name" placeholder="First Name" required="">
+                        </div>
+                        <div>
+                            <label for="lname-field">Last Name: </label>
+                            <input id="lname-field" type="text" name="last_name" placeholder="Last Name" required="">
+                        </div>
+                        <div>
+                            <label for="email-field">Email Address: </label>
+                            <input id="email-field" type="email" name="email" placeholder="Email address" required="">
+                        </div>
+                        <div>
+                            <label for="pnumber-field">Phone Number: </label>
+                            <input id="pnumber-field" type="tel" name="phone-number" placeholder="Phone number" required="">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="message">Details of your enquiry: </label>
+                            <br>
+                            <textarea id="message" rows="4" cols="87" name="message" placeholder="Message"></textarea>
+                        </div>
+                </fieldset>
+                        
+                        <input type="submit" class="send-form" value="Send">
+                        <input type="reset" class="reset-form" value="Reset Form">
+                </form>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <img class="logo-footer" src="assets/images/ella-logo.jpg" alt="Hair by Ella Logo">
+        </div>
+        <ul class="social-networks">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.google.co.uk/maps/place/Haywards+Heath/@50.9985298,-0.1311943,13z/data=!3m1!4b1!4m5!3m4!1s0x47df5f754c643273:0x3a394c4845cc3f04!8m2!3d50.999041!4d-0.106333" target="_blank" rel="noopener"
+                    aria-label="Find us on Google (opens in a new tab)"><i class="fa-sharp fa-solid fa-location-dot"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
+        <div>
+            <p id="copyright"><b>©2022 Hair by Ella</b></p>
+        </div>
+    </footer>
+
+    <!--Font awesome script-->
+    <script src="https://kit.fontawesome.com/dbc0518aab.js" crossorigin="anonymous"></script>
 </body>
