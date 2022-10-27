@@ -207,7 +207,7 @@ footer {
 
 /* contact form */
 #your-details {
-    text-align: center;
+    margin-left: 10%;
     padding: 5px;
     color: #3a3a3a;
     background-color: #CBC0E0;
@@ -288,6 +288,11 @@ input, label, textarea {
 
     #photos {
         column-count: 2;
+    }
+
+    #your-details {
+        text-align: center;
+        margin-left: 0;
     }
 
     form {
