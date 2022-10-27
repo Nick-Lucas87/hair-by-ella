@@ -86,6 +86,27 @@ table {
     text-decoration: underline;
 }
 
+/* about us section in index.html */
+
+#about-us {
+        margin-top: 40px;
+        margin-left: 40px;
+}
+
+/* photos section in index.html */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0;
+    margin: 40px
+}
+
+#photos > img {
+    width: 100%;
+}
+
 /* pricelist */
 
 .pricelist-table {
