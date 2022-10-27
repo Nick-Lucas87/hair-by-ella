@@ -14,7 +14,7 @@ body {
 
 /* headings, logo and opening times*/
 
-h1 {
+h1, h2, {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     letter-spacing: 5px;
@@ -22,9 +22,16 @@ h1 {
     text-decoration: none;
     clear: both;
     display: inline;
-    margin-left: 5px;
+    margin-left: 40px;
 }
 
+h3, p, td, th, label, input, legend {
+    font-family: 'lato',sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
 .logo-header {
     float: left;
     margin-left: 40px;
@@ -44,10 +51,13 @@ a:hover {
 /* navigation and menu items */
 
 #menu {
+    background-color: #3a3a3a;
+}
+
+#menu {
     list-style-type: none;
     font-size: 150%;
-    clear:left;
-    
+    clear:left;    
 }
 
 #menu li {
@@ -59,32 +69,17 @@ a:hover {
     text-decoration: none;
     color: #3a3a3a;
     letter-spacing: 4px;
-    margin-left: 77px;
+    margin-left: 40px;
     font-size: 150%;
     font-weight: 700;
     font-family: 'Playfair Display', serif;
+    color: #CBC0E0;
 }
 
 #menu a:hover {
     text-decoration: underline;
 }
 
-table {
-    width: auto;
-    float: right;
-    text-align: left;
-    margin-right: 40px;
-    margin-top: 20px;
-    font-family: 'lato', sans-serif;
-    line-height: 170%;
-}
-
-.table-opening-times {
-    text-align: center;
-    font-weight: 700;
-    font-family: 'lato', sans-serif;
-    text-decoration: underline;
-}
 
 /* about us section in index.html */
 
@@ -120,19 +115,34 @@ table {
 
 .pricelist-table {
     text-align: center;
-    clear: left;
-    float: left;
     margin-left: 40px;
+    margin-bottom: 20px;
     width: 33.3%;
     table-layout: fixed;
     border: 1px solid #3a3a3a;
 }
 
+#pricelist-section {
+    clear:both;
+    float:left;
+}
+
 #pricelist-h2 {
     text-align: left;
-    margin: 40px;
+    margin-left: 40px;
     padding-top: 20px;
 }
+
+.table-th {
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+tr > td {
+    padding: 5px;
+}
+
+
 
 /* contact-map */
 
@@ -148,6 +158,23 @@ table {
 
 footer {
     height: 150px;
+}
+
+.main-table-opening-times {
+    width: auto;
+    float: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-family: 'lato', sans-serif;
+    line-height: 170%;
+}
+
+.table-opening-times {
+    font-weight: 700;
+    font-family: 'lato', sans-serif;
+    text-decoration: underline;
 }
 
 .logo-footer {
@@ -180,7 +207,7 @@ footer {
 
 /* contact form */
 #your-details {
-    margin-left: 150px;
+    text-align: center;
     padding: 5px;
     color: #3a3a3a;
     background-color: #CBC0E0;
@@ -210,5 +237,94 @@ input, label, textarea {
     margin-top: 1%;
     background-color: #3a3a3a;
     color: #CBC0E0;
+}
+
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down*/
+
+@media screen and (max-width: 1200px) {
+    
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+    .logo-header {
+        clear: left;
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .logo-responsive {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+    
+    .pricelist-table {
+        margin-left: auto;
+        margin-bottom: auto;
+        width:auto;
+        float: none;
+    }
+
+    #pricelist-h2 {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin: auto;
+    }
+
+    #pricelist-h2 {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+    }
+    
+    #about-us p {
+        margin-right: 20px; 
+    }
+
+    #photos {
+        column-count: 2;
+    }
+
+    form {
+        clear: left;
+        float: left;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    label {
+        width: fixed;
+        text-align:left;
+        margin-left: 20px;
+        margin-right: auto;
+        padding: 2px;
+    }
+    
+    #message, #fname-field, #lname-field, #email-field, #pnumber-field {
+        float: right;
+        width: fixed;
+        text-align:left;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 2px;
+    }
+
+    .send-form, .reset-form {
+        padding: 5px;
+        font-weight: bold;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 1;
+    }
+    
 }
 
