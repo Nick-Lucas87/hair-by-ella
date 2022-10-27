@@ -20,10 +20,10 @@
         </a>
 
         <table>
-            <th>
-                
-                <td class="table-opening-times">Opening Times</td>
-            </th>
+            <tr>
+                <th></th>
+                <th class="table-opening-times">Opening Times</th>
+            </tr>
             <tr>
                 <td>Monday: </td>
                 <td>09:30 - 21:30</td>
@@ -71,11 +71,10 @@
     
     <section>
         <div>
-            <form>
-                <form action="https://formdump.codeinstitute.net" method="POST">
+           <form action="https://formdump.codeinstitute.net" method="POST">
 
-                    <fieldset>
-                        <legend id="your-details">Your details</legend>
+                <fieldset>
+                    <legend id="your-details">Your details</legend>
                 
                         <div>
                             <label for="fname-field">First Name: </label>
@@ -101,9 +100,15 @@
                         </div>
                 </fieldset>
                         
-                        <input type="submit" class="send-form" value="Send">
-                        <input type="reset" class="reset-form" value="Reset Form">
-                </form>
+                <input type="submit" class="send-form" value="Send">
+                <input type="reset" class="reset-form" value="Reset Form">
+            </form>
+        </div>
+    </section>
+
+    <section class="mapouter">
+        <div class="gmap_canvas">
+            <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=haywards%20heath&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
         </div>
     </section>
 

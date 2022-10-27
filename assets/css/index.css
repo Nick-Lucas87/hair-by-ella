@@ -66,7 +66,7 @@ a:hover {
 }
 
 #menu a:hover {
-    color: ;
+    text-decoration: underline;
 }
 
 table {
@@ -93,6 +93,10 @@ table {
         margin-left: 40px;
 }
 
+#about-us h2 {
+    text-decoration: underline;
+}
+
 /* photos section in index.html */
 
 #photos {
@@ -105,6 +109,11 @@ table {
 
 #photos > img {
     width: 100%;
+}
+
+#photos-h2 {
+    margin-left: 40px;
+    text-decoration: underline;
 }
 
 /* pricelist */
@@ -125,6 +134,15 @@ table {
     padding-top: 20px;
 }
 
+/* contact-map */
+
+.mapouter {
+    clear:left;
+    position: relative;
+    text-align:center;
+    height: 180px;
+    width: 100%;
+}
 
 /* footer */
 
@@ -193,3 +211,4 @@ input, label, textarea {
     background-color: #3a3a3a;
     color: #CBC0E0;
 }
+
