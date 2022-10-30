@@ -1,7 +1,5 @@
 # Hair by Ella
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
-
 Hair by Ella is a website that offers clients the ability to view the various hair stylings offered by Hair by Ella which is based in the heart of Mid Sussex in England, UK. Hair by Ella also offers the client a contact form which they can fill out and submit for contact regarding appointments and special pricing.
 
 ## Features 
@@ -69,6 +67,10 @@ Hair by Ella is a website that offers clients the ability to view the various ha
 - CSS
   - index.css: - Errors were found when using "Validate by URL" but these errors were not in relation to my code. [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgithub.com%2FNick-Lucas87%2Fhair-by-ella%2Fblob%2Fmain%2Fassets%2Fcss%2Findex.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
   - index.css: - One error was found when when using Validate by Direct Input. This is a parse error which I am unable to resolve. [W3C validator] (https://github.com/Nick-Lucas87/hair-by-ella/blob/main/assets/images/css%20validation%20error.jpg)
+
+### Lighthouse Testing
+
+- [Lighthouse] (https://github.com/Nick-Lucas87/hair-by-ella/blob/main/assets/images/lighthouse.jpg)
 
 ### Unfixed Bugs
 
