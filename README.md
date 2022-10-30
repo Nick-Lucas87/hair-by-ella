@@ -11,7 +11,7 @@ Hair by Ella is a website that offers clients the ability to view the various ha
   - Featured on all three pages, the fully responsive navigation bar includes links to the Home page, Pricelist page and Contact page. Each page header and navigation bar is identical on each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](https://github.com/Nick-Lucas87/hair-by-ella/blob/main/assets/images/nav-menu.jpg)
 
 - __The landing page logo__
 
@@ -83,7 +83,7 @@ One issue that was encountered was when the opening times were part of the heade
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://nick-lucas87.github.io/hair-by-ella/ 
 
 
 ## Credits 
