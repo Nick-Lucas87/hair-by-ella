@@ -59,23 +59,24 @@ Hair by Ella is a website that offers clients the ability to view the various ha
 
 - HTML
   - index.html: Errors were found when using "Validate by URL" but these errors were not in relation to my code. [(Jigsaw) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgithub.com%2FNick-Lucas87%2Fhair-by-ella%2Fblob%2Fmain%2Findex.html)
-  - index.html: No errors were found when when using Validate by Direct Input [W3C validator] ()
+  - index.html: No errors were found when when using Validate by Direct Input [W3C validator] (https://github.com/Nick-Lucas87/hair-by-ella/blob/main/assets/images/index%20validation.jpg)
   - contact.html: Errors were found when using "Validate by URL" but these errors were not in relation to my code. [(Jigsaw) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgithub.com%2FNick-Lucas87%2Fhair-by-ella%2Fblob%2Fmain%2Fcontact.html)
-  - contact.html: Two errors were found when when using Validate by Direct Input [W3C validator] ()
-  - contact.html: Upon further investigation, no h2-6 element was required and there was already a div in place but these error still show. () ()
-  - index.css: Errors were found when using "Validate by URL" but these errors were not in relation to my code. [(Jigsaw) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgithub.com%2FNick-Lucas87%2Fhair-by-ella%2Fblob%2Fmain%2Fpricelist.html)
-  - index.css: One error was found when when using Validate by Direct Input. This is a parse error which I am unable to resolve. [W3C validator] ()
+  - contact.html: Two errors were found when when using Validate by Direct Input [W3C validator] (https://github.com/Nick-Lucas87/hair-by-ella/blob/main/assets/images/contact%20validation%20-%20error.jpg)
+  - contact.html: Upon further investigation, no h2-6 element was required and there was already a div in place but these error still show. (https://github.com/Nick-Lucas87/hair-by-ella/blob/main/assets/images/contact%20validation%20-%20error%20-%20line%2036%20code%20snippet.jpg) (https://github.com/Nick-Lucas87/hair-by-ella/blob/main/assets/images/contact%20validation%20-%20error%20-%20line%2074%20code%20snippet.jpg)
+  - pricelist.html: Errors were found when using "Validate by URL" but these errors were not in relation to my code. [(Jigsaw) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgithub.com%2FNick-Lucas87%2Fhair-by-ella%2Fblob%2Fmain%2Fpricelist.html)
+  - pricelist.html: One error was found when when using Validate by Direct Input. This is a parse error which I am unable to resolve. [W3C validator] (https://github.com/Nick-Lucas87/hair-by-ella/blob/main/assets/images/pricelist%20validation.jpg)
  
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgithub.com%2FNick-Lucas87%2Fhair-by-ella%2Fblob%2Fmain%2Fassets%2Fcss%2Findex.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - index.css: - Errors were found when using "Validate by URL" but these errors were not in relation to my code. [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgithub.com%2FNick-Lucas87%2Fhair-by-ella%2Fblob%2Fmain%2Fassets%2Fcss%2Findex.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - index.css: - One error was found when when using Validate by Direct Input. This is a parse error which I am unable to resolve. [W3C validator] (https://github.com/Nick-Lucas87/hair-by-ella/blob/main/assets/images/css%20validation%20error.jpg)
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+There were no unfixed bugs during development and testing. 
+
+One issue that was encountered was when the opening times were part of the header. When using responsive design, they moved to an undesirable location on the page which caused a poor user experience. I resolved this by moving the opening times to the footer.
 
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
@@ -87,17 +88,11 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The fonts used were taken from [Google Fonts](https://fonts.google.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The images used on the home page were from instagram.
