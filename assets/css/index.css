@@ -14,7 +14,7 @@ body {
 
 /* headings, logo and opening times*/
 
-h1, h2, {
+h1, h2 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     letter-spacing: 5px;
@@ -85,7 +85,14 @@ a:hover {
 
 #about-us {
         margin-top: 40px;
-        margin-left: 40px;
+}
+
+#about-us h2 {
+    margin-left: 40px;
+}
+
+#about-us p {
+    margin-left: 40px;
 }
 
 #about-us h2 {
@@ -282,6 +289,11 @@ input, label, textarea {
         padding-top: 20px;
     }
     
+    #about-us h2 {
+        margin-right: 20px; 
+        display: inline-block;
+    }
+
     #about-us p {
         margin-right: 20px; 
     }
@@ -303,7 +315,6 @@ input, label, textarea {
     }
 
     label {
-        width: fixed;
         text-align:left;
         margin-left: 20px;
         margin-right: auto;
@@ -312,7 +323,6 @@ input, label, textarea {
     
     #message, #fname-field, #lname-field, #email-field, #pnumber-field {
         float: right;
-        width: fixed;
         text-align:left;
         margin-left: 20px;
         margin-right: 20px;
@@ -326,10 +336,9 @@ input, label, textarea {
     }
 }
 
+/* For Small screen sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
     #photos {
         column-count: 1;
     }
-    
 }
-

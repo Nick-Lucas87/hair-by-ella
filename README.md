@@ -58,9 +58,16 @@ Hair by Ella is a website that offers clients the ability to view the various ha
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - index.html: Errors were found when using "Validate by URL" but these errors were not in relation to my code. [(Jigsaw) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgithub.com%2FNick-Lucas87%2Fhair-by-ella%2Fblob%2Fmain%2Findex.html)
+  - index.html: No errors were found when when using Validate by Direct Input [W3C validator] ()
+  - contact.html: Errors were found when using "Validate by URL" but these errors were not in relation to my code. [(Jigsaw) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgithub.com%2FNick-Lucas87%2Fhair-by-ella%2Fblob%2Fmain%2Fcontact.html)
+  - contact.html: Two errors were found when when using Validate by Direct Input [W3C validator] ()
+  - contact.html: Upon further investigation, no h2-6 element was required and there was already a div in place but these error still show. () ()
+  - index.css: Errors were found when using "Validate by URL" but these errors were not in relation to my code. [(Jigsaw) validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgithub.com%2FNick-Lucas87%2Fhair-by-ella%2Fblob%2Fmain%2Fpricelist.html)
+  - index.css: One error was found when when using Validate by Direct Input. This is a parse error which I am unable to resolve. [W3C validator] ()
+ 
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgithub.com%2FNick-Lucas87%2Fhair-by-ella%2Fblob%2Fmain%2Fassets%2Fcss%2Findex.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 ### Unfixed Bugs
 
