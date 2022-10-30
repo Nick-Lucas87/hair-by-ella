@@ -13,11 +13,11 @@ Hair by Ella is a website that offers clients the ability to view the various ha
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
-- __The landing page image__
+- __The landing page logo__
 
   - The landing includes a bespoke designed logo with an alt attribute for screen readers.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](https://github.com/Nick-Lucas87/hair-by-ella/blob/main/assets/images/ella-logo.jpg)
 
 - __The home page__
 
@@ -25,53 +25,35 @@ Hair by Ella is a website that offers clients the ability to view the various ha
   - "a little bit about us" which advises the user who Hair by Ella are and where they are located.
   - "photos" section which offers the user images of previous styling, colour and cuts. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-
-- __Meetup Times section__
-
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![About us](https://github.com/Nick-Lucas87/hair-by-ella/blob/main/assets/images/about-us.jpg)
+![Photos](https://github.com/Nick-Lucas87/hair-by-ella/blob/main/assets/images/photos.jpg)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes; opening times, a smaller version of the bespoke logo, links to the relevant social media sites for Hair by Ella and a copyright sentence. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media and shows visibility of opening times.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://github.com/Nick-Lucas87/hair-by-ella/blob/main/assets/images/footer.jpg)
 
-- __Gallery__
+- __Pricelist__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The pricelist page gives the user a full list of all services provides including pricing.
+  - This page is extremely valueble as it allows the user to see the pricing which is a significant reason to choose Hair by Ella. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Pricelist](https://github.com/Nick-Lucas87/hair-by-ella/blob/main/assets/images/pricelist.jpg)
 
-- __The Sign Up Page__
+- __Contact__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page will allow the user to get in contact with Hair by Ella regarding appointments, special pricing for wedding hair or for any other reason.
+  - The contact form has five input areas. First Name, Last Name, Email Address, Phone Number and Details of your enquiry. The first four are mandatory fields as these are the most important fields required to know who has contacted. The details of your enquiry input area is not mandatory as this can be discussed between the user and Hair by Ella at a further stage.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Contact form](https://github.com/Nick-Lucas87/hair-by-ella/blob/main/assets/images/contact.jpg)
 
 ### Features Left to Implement
 
-- Another feature idea
+- a future development idea would be to have a booking page where the user can pick an appointment date and time that suits.
 
 ## Testing 
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
 
 ### Validator Testing 
 
